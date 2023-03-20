@@ -4,24 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>amazon_mockup</title>
+    <link rel="stylesheet" href="./styles.css"
 </head>
 <body>
     <div class="signIn">
         <h2>Sign In</h2>
-        <p>Email</p>
-        <label>Enter Email</label>
-        <input id="emailAddress" type="text" name="email" placeholder="Enter Email">
-        <p>Password</p>
-        <label>Enter Password</label>
-        <input id="password" type="password" placeholder="Enter Password"><br><br>
-        <button>Continue</button><br><br>
-        <a href="...">Need Help?</a>
-        <a href="...">Forgot Password?</a>
+        <div id="emailing">
+            <label>Email</label><br>
+            <input id="emailAddress" type="text" name="email" placeholder="Enter Email"><br>
+            
+        </div>
+        <div id="password">
+            <label>Password</label><br>
+            <input id="passwordLine" type="password" placeholder="Enter Password"><br><br>
+            <button id="continue">Continue</button><br><br>
+        </div>
+        <div id="helpLinks">
+            <a href="...">Need Help?</a>
+            <a href="...">Forgot Password?</a>
+        </div> 
+
+    </div>
+
+    <div id="new">
+        <p class="newCustomer"><span>New To Amazon?</span></p>
+        <button class="createAcc">Create Your Amazon Account</button>
 
     </div>
     
-    
+    <hr>
+
+    <div class="end">
+        <footer class="helpLinks">
+            <a href="..." id="links">Conditions of use</a>
+            <a href="..." id="links">Privacy Policy</a>
+            <a href="..." id="links">Help</a>
+            <br>
+            <p id="copy">1996-2023 Amazon.com Inc and affiliates</p>
+
+        </footer>
+    </div>
     
 </body>
 </html>

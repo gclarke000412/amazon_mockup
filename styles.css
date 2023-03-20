@@ -1,0 +1,66 @@
+body{
+    line-height: 20px;
+    color: black ;
+    font-size: 1em;
+    margin-top: 10%;
+    
+}
+
+.signIn{
+    position: static;
+    width: 350px;
+    margin: 0 auto;
+    border: .5px solid;
+    padding: 10px 30px 30px;
+}
+
+#emailing{
+    padding-bottom: 15px;    
+}
+
+input{
+    width: 100%;
+    height: 25px
+}
+
+#continue{
+    width: 100%;
+    background:#eec04c;
+    height: 30px;
+    border-width: 0.5px solid;
+}
+
+#new{
+    text-align: center;
+}
+
+.newCustomer{
+    color: rgb(130, 130, 130);
+    width: 100%;
+
+}
+
+.createAcc{
+    width: 400px;
+    height: 27px;
+    margin-bottom: 50px;
+}
+
+.end{
+    text-align: center;
+    opacity: .6;
+
+}
+
+#links{
+    margin: 0 12px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+hr{
+    margin: 15px 0;
+}
